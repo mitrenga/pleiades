@@ -1,0 +1,7 @@
+{
+    "standalone": [
+        "gameWorker.js",
+        "pleiadsSoundProcessor.js",
+        "svision/js/audio/worker/oscilatorWorker.js"
+    ]
+}

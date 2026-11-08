@@ -1,0 +1,14 @@
+*.html
+config/config.php
+js
+test*
+tmp*
+# ROM set is not in git (sources/rom/README.md stays); the rest of sources/ is tracked
+sources/rom/pleiads/
+sources/rom/*.zip
+sources/
+CLAUDE.md
+.claude/
+MILNIKY.md
+ZADANI.md
+*.log

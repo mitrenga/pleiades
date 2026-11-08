@@ -1,0 +1,10 @@
+<?php
+
+  // public name of the game (internal project name and MAME set are "pleiads",
+  // the remake is published as "Pleiades", GAME-DESIGN.md chap. 0)
+  $appPublicName = 'PLEIADES';
+
+  $dbHostname = 'localhost';
+  $dbName = 'pleiades';
+  $dbUser = 'your-user-name';
+  $dbPassword = 'your-password';
