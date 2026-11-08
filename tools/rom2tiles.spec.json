@@ -1,0 +1,11 @@
+{
+ "note": "Pleiads (Tehkan) tile and palette ROMs, MAME set 'pleiads' (phoenix.cpp). Paths relative to this spec.",
+ "romDir": "../sources/rom/pleiads",
+ "layers": {
+  "bg": {"plane0": "ic23.bin", "plane1": "ic24.bin", "note": "bgtiles: ic23 = LSB plane (offset 0), ic24 = MSB plane (offset 0x800)"},
+  "fg": {"plane0": "ic39.bin", "plane1": "ic40.bin", "note": "fgtiles: ic39 = LSB plane, ic40 = MSB plane"}
+ },
+ "proms": {"low": "7611-5.26", "high": "7611-5.33", "note": "256x4 each: .26 = low bits, .33 = high bits (MAME 'proms' region 0x000/0x100)"},
+ "output": "../data/tiles.json",
+ "previewTiles": {"fg": ["0x01", "0x02", "0x13", "0x20", "0x21", "0x29", "0x70", "0x71"], "bg": ["0x6F", "0x7C", "0x39"]}
+}
